@@ -15,7 +15,17 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input:-webkit-autofill::first-line {
+  color: inherit !important; /* Inherit text color from parent styles */
+}input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important; /* Adjust 'white' to your input's background color */
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: black !important; /* Set autofill text color to black */
+  color: black !important; /* Fallback text color */
 }
