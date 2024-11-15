@@ -2,7 +2,6 @@
 import { auth } from "@/firebase/firebaseConfig";
 import {
   createUserWithEmailAndPassword,
-  getAuth,
   sendEmailVerification,
 } from "firebase/auth";
 import Image from "next/image";
