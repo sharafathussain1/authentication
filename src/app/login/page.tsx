@@ -29,7 +29,7 @@ export default function SignIn() {
 
         // Signed in
         const user = userCredential.user;
-        console.log("LOGin User++++++++" + user);
+        // console.log("LOGin User++++++++" + user);
         setMessage("Login successfuly");
         //  here navigate the home page
       })
@@ -120,7 +120,7 @@ export default function SignIn() {
           </button>
 
           <p className="text-center mt-3 text-slate-600">
-            Don't have an account?...{" "}
+            Don&apos;t have an account?...{" "}
             <Link className="text-blue-600" href={"/signup"}>
               SignUp
             </Link>
