@@ -28,7 +28,7 @@ export default function SignIn() {
         }
 
         // Signed in
-        const user = userCredential.user;
+
         // console.log("LOGin User++++++++" + user);
         setMessage("Login successfuly");
         //  here navigate the home page
